@@ -1,6 +1,6 @@
 /*!
     Gunmetal
-    Version: 0.1
+    Version: 0.2
 */
 
 
@@ -15,7 +15,7 @@
 @color-off-black: #1F2432;
 @color-black: #000;
 
-@font-family-primary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+@font-family-primary: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 
 /* --------------------------------------------------------------
@@ -80,14 +80,14 @@ h6 {
 }
 
 h1 {
-    font-weight: normal;
+    font-weight: 600;
     font-size: 45px;
     line-height: 53px;
     letter-spacing: -0.5px;
 }
 
 h2 {
-    font-weight: normal;
+    font-weight: 600;
     font-size: 21px;
     line-height: 32px;
     letter-spacing: -0.3px;
@@ -121,28 +121,21 @@ hr {
 }   
 
 .delay-1 {
-    -webkit-animation-delay: 0.2s;
-    animation-delay: 0.2s;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
 }
 .delay-2 {
-    -webkit-animation-delay: 0.4s;
-    animation-delay: 0.4s;
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
 }
 .delay-3 {
-    -webkit-animation-delay: 0.6s;
-    animation-delay: 0.6s;
+    -webkit-animation-delay: 2.4s;
+    animation-delay: 2.4s;
 }
-.delay-4 {
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-}
-.delay-5 {
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-}
-.delay-6 {
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
+
+.animated {
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
 }
 
 /* --------------------------------------------------------------
@@ -162,7 +155,7 @@ hr {
 #sidebar {
     position: relative;
     height: 100%;
-    width: 30%;
+    width: 35%;
     float: left;
     background-color: @color-background;
     background-image: url(img/background-portrait.jpg);
@@ -190,7 +183,7 @@ hr {
 #content {
     position: relative;
     height: 100%;
-    width: 70%;
+    width: 65%;
     float: left;
     .center-container {
         max-width: 460px;
